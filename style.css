@@ -2,6 +2,7 @@ body{
     background-color: rgba(255, 0, 0, 0.479);
     color: rgb(42, 51, 45);
     padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 
@@ -39,6 +40,7 @@ body{
 .navi{
     background-color: rgb(187, 10, 10);
     height: auto;
+        
 
 
 }
@@ -119,6 +121,10 @@ li:hover a{
     display: flex;
     justify-content: left;
     color: #ffffff;
+}
+
+.p{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .Poster img{
