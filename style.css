@@ -1,0 +1,222 @@
+body{
+    background-color: rgba(255, 0, 0, 0.479);
+    color: rgb(42, 51, 45);
+    padding: 20px;
+}
+
+
+.container{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+
+.header{
+    background-color: rgb(165, 211, 57);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header img{
+    width: auto;
+    height: 80%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    box-shadow: 0px 0px 57px 11px rgba(0,0,0,0.1);
+
+}    
+
+
+.navi{
+    background-color: rgb(187, 10, 10);
+    height: auto;
+
+
+}
+
+
+ul,li{
+    margin: 0;
+    padding: 0  ;
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    flex: 100%;
+}
+
+
+ul li{
+    width: 20%;
+}
+
+
+a{
+    display: block;
+    text-decoration: none;
+    font:bold 13px sans-serif ;
+    background-color: rgb(224, 144, 144);
+    color: rgb(134, 42, 42);
+    border: solid 2px #c7a5a5;
+    transition-property: all;
+    transition-duration: .2s;
+}
+
+
+li:hover a{
+    background-color: #ff0000;
+}
+
+
+.main{
+    display: flex;
+    flex: 100%;
+    height: 100%;
+  
+}
+
+.Post{
+    background-color: #d31010;
+    display: flex;
+    justify-content: left;
+    color: aliceblue;
+}
+
+.Post img{ 
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+.Posti{
+    background-color: #0ea5eb;
+    display: flex;
+    justify-content: left;
+    
+}
+
+.Posti img{ 
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+.Poster{
+    background-color: #428118;
+    display: flex;
+    justify-content: left;
+    color: #ffffff;
+}
+
+.Poster img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+}
+
+.Postar{
+    background-color: #f5bd7e;
+    display: flex;
+    justify-content: left;
+    color: #0f0f0f;
+}
+
+.Postar img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.Ssilk{
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.sidebar{
+    flex: 50%;
+    background-color: rgb(175, 138, 138);
+    height: auto;
+    display: none;
+
+}
+
+
+
+
+.main{
+    display: flex;
+    min-height: 60vh;
+}
+
+
+
+.footer{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto;
+    
+}
+
+
+
+.footer img{
+    
+    height:200px ;
+    
+    
+}
+
+
+
+.Columns{
+    height: 200px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    transition-property: all;
+    transition-duration: 2s;
+
+}
+
+
+.column{
+    border-radius: 15px;
+    border:solid 2px rgb(0, 0, 0) ;
+    background-color: beige;
+    min-width: 200px;
+    margin: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+    
+
+}
+
+
+
+
+
